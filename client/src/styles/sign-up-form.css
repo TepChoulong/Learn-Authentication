@@ -1,0 +1,30 @@
+.sign-up-form {
+  background-color: #ff2f2f;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.sign-up-form div:not(.sign-up-form-button-container),
+.sign-up-form div:not(.sign-up-form-footer) {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.sign-up-form div label {
+  margin-bottom: 0.3rem;
+}
+
+.sign-up-form div input {
+  padding: 0.5rem;
+}
+
+.sign-up-form-button-container button {
+  margin-top: 0.5rem;
+  width: 100%;
+  background-color: #ffffff;
+  color: #ff2f2f;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
